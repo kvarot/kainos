@@ -1,87 +1,38 @@
-<!-- FlatFy Theme - Andrea Galanti /-->
 <!doctype html>
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<html>
 <head>
 	<?php include('head.php'); ?>
 </head>
 
-<body id="home">
+<body>
 
 
-<!-- Preloader -->
-<div id="preloader">
-	<div id="status"></div>
-</div>
+<!-- Home Page -->
+<section class="information" style="text-align: center;float: left;width:95%">
+    <h1>Bienvenu</h1>
+    <h5>La version desktop et en cours de développement ! </h5>
+    <p>Connectez-vous à ce site avec un smartphone, vous serez automatiquement redirigé vers sa version mobile.</p>
+</section>
 
-<!-- Section 1 --PRESENTATION -->
-<?php include('section1.php'); ?>
-<!-- NavBar-->
-<?php include('navbar.php'); ?>
+<!-- Contact Page -->
+<section class="contact"  style="text-align: center;float: left;width:95%">
+    <h1>Contact</h1>
+    <address>
 
-<!-- Section 2 -- INFOGRAPHIE -->
-<?php include('section2.php'); ?>
-
-<!-- Section 3 -- WEB -->
-<?php include('section3.php'); ?>
-
-<!-- Section 4 --TELECOM -->
-<?php include('section4.php'); ?>
-
-<!-- Section 5 -- EXPERIENCES -->
-<?php include('section5.php'); ?>
-
-<!-- Section 6 -- DIPLOME-->
-<?php include('section6.php'); ?>
-
-<!-- Section 7 -->
-<?php include('section7.php'); ?>
-
-<!-- Section 8  -->
-<?php include('section8.php'); ?>
-
-<!-- Section 9-->
-<?php include('section9.php'); ?>
-
-
-<!-- Section 10 -- Contact -->
-<?php include('section10.php'); ?>
+        <p><a
+                                  href="https://www.google.com/maps/place/Montpellier,+France/@43.610022,3.8741615,11z/data=!4m2!3m1!1s0x12b6af0725dd9db1:0xad8756742894e802">
+                Montpellier (34000)<br>
+                Route de ganges</a><br>
+            Tel : <a href="tel:0681542619" class="lead-black">06.81.54.26.19</a><br>
+            Email : <a href="mailto:contact@kainos.fr"  >contact@kainos.fr</a></p>
+    </address>
+</section>
 
 
 
-<!-- FOOTER -->
-<?php include('footer.php'); ?>
 
 
-<!-- JavaScript -->
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/script.js"></script>
-<!-- StikyMenu -->
-<script src="js/stickUp.min.js"></script>
-<script type="text/javascript">
-	jQuery(function($) {
-		$(document).ready( function() {
-			$('.navbar-default').stickUp();
 
-		});
-	});
-
-</script>
-<!-- Smoothscroll -->
-<script type="text/javascript" src="js/jquery.corner.js"></script>
-<script src="js/wow.min.js"></script>
-<script>
-	new WOW().init();
-</script>
-<script src="js/classie.js"></script>
-<script src="js/uiMorphingButton_inflow.js"></script>
-<!-- Magnific Popup core JS file -->
-<script src="js/jquery.magnific-popup.js"></script>
 </body>
 
 </html>
